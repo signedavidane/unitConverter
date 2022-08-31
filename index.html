@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="unit-converter">
+        <section id="header-section">
+            <h1 id="header">Unit Conversion</h1>
+            <input type="text" id="input-field" autofocus> <br> <!-- autofocus for blinking cursor, even after a page load -->
+            <button id="convert-btn">Convert</button>
+        </section>
+
+        <section id="unit-section">
+            <div id="length-div" class="unit-div">
+                <p class="unit-title">Length (Meter/Feet)</p>
+                <p id="length-unit" class="units"></p>
+            </div> 
+
+            <div id="volume-div" class="unit-div">
+                <p class="unit-title">Volume (Liters/Gallons)</p>
+                <p id="volume-unit" class="units"></p>
+            </div>
+
+            <div id="mass-div" class="unit-div">
+                <p class="unit-title">Mass (Kilograms/Pounds)</p>
+                <p id="mass-unit" class="units"></p>
+            </div>
+        </section>
+    </section>
+
+    <script src="/script.js"></script>
+</body>
+</html>

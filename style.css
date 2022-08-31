@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #1C1C1C;
+    width: 700px;
+    margin: 50px auto;
+}
+
+#unit-converter {
+    background-color: #1F2937;
+    padding-bottom: 50px;
+}
+
+#header-section {
+    background-color: #6943FF;
+    padding: 30px;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+#input-field {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80px;
+    height: 60px;
+    background-color: #A18DF2;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#convert-btn {
+    padding: 7px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.unit-title {
+    color: #CCC1FF;
+}
+
+.units {
+    color: #FFFFFF;
+}
+
+.unit-div {
+    background-color: #273549;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+#length-div {
+    margin-top: 40px;
+}
+
